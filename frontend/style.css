@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#r1 a {
+  color: aliceblue;
+}
+
+#r2 {
+  position: relative;
+}
+
+#address{
+  height: 35px;
+}
+
+.menu ul {
+  position: absolute;
+  top: 70%;
+  display: none;
+  z-index: 1;
+  padding: 0;
+}
+
+.menu:hover ul {
+  display: block;
+}
+
+#r2 > ul > li > a{
+  border-bottom: 2px solid #fff;
+  transition: border-bottom 1s ease-in-out;
+  
+}
+
+#r2 > ul >li:hover >a{
+  border-bottom: 2px solid black;
+  /* color: #4CAF50 !important; */
+}
+
+.w-15{
+  width: 600px;
+}
+
+.cate{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sp{
+  width: 30%;
+}
+
+.sp > div{
+  width: 100%;
+}
+
+.more{
+  display: inline-block !important;
+  width: 50%;
+}
